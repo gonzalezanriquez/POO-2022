@@ -7,7 +7,8 @@ public abstract class Intersado {
 
 
 	
-	notificarCambio(String mensaje) {...}
-	{abstract} responder(String mensaje)
+	public abstract void notificarCambio();
+	public abstract void responder();
+	
 
 }
